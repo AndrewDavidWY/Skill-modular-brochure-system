@@ -1,0 +1,4 @@
+interface:
+  display_name: "模块化封套宣传册"
+  short_description: "用统一封套、A4双面插页与业务色彩，建立可按客户自由组合的品牌宣传册"
+  default_prompt: "使用 $modular-brochure-system，根据我的品牌资料和业务清单，设计统一封套与可组合的 A4 双面宣传插页。"

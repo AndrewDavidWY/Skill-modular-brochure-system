@@ -1,3 +1,3 @@
-module_id,category,name,theme_color,print_color,profile_status,front_file,back_file,version,status,audience,dependencies,replaces,source,print_quantity,stock_quantity,last_updated,notes
-MOD-001,产品,示例：产品 A,#147D92,,待供应商确认,MOD-001_front_v0.1.svg,MOD-001_back_v0.1.svg,v0.1,示例／待核实,示例：初次接洽客户,,,虚构示例，无已核实业务资料,,,,文件名为输出命名示例；修改母版后另存为配对文件
-MOD-002,解决方案,示例：方案 B,#704BB2,,待供应商确认,MOD-002_front_v0.1.svg,MOD-002_back_v0.1.svg,v0.1,示例／待核实,示例：特定需求客户,示例：视内容核实是否需要 MOD-001,,虚构示例，无已核实业务资料,,,,印量与库存由实际记录填入；每张纸正反两面须同步
+﻿module_id,category,name,theme_color,print_color,profile_status,front_file,back_file,version,status,audience,dependencies,replaces,source,landing_page,hero_height_mm,brand_band_height_mm,mechanism_file,customer_value,case_source,print_quantity,stock_quantity,last_updated,notes
+MOD-001,服务,示例：决策支持服务,#4267EC,,RGB示例；印刷配置待供应商确认,MOD-001_front_v1.0.svg,MOD-001_back_v1.0.svg,v1.0,虚构示例,示例：希望了解服务是否适配的客户,,,纯虚构，无业务与案例证明,,108,16,MOD-001_mechanism_v1.0.svg,示例：让客户更清楚地判断与采用,,,,,尺寸仅为参数示例，非通用要求；真实落地页确认后才生成QR；正反配对使用。
+MOD-002,解决方案,示例：协作方案,#805DCB,,RGB示例；印刷配置待供应商确认,MOD-002_front_v1.0.svg,MOD-002_back_v1.0.svg,v1.0,虚构示例,示例：希望了解服务是否适配的客户,,,纯虚构，无业务与案例证明,,108,16,MOD-002_mechanism_v1.0.svg,示例：让客户更清楚地判断与采用,,,,,尺寸仅为参数示例，非通用要求；真实落地页确认后才生成QR；正反配对使用。

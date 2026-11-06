@@ -1,62 +1,112 @@
-<!-- Editable A4 master, RGB, no bleed; not a press-ready PDF.
-     Theme #147D92; alternatives #AD5F27 or #704BB2.
-     Replace theme HEX globally and retain named theme classes.
-     Shared header y=0..24; footer y=279..297; content x=14..196. -->
+<!-- Generic editable A4 example; package v1.2. RGB/no bleed, not press-ready.
+ Project parameters in this example only: Hero 108mm; compact brand bands 16mm.
+ Replace fictional wording, DEMO mark, artwork, theme colors and QR placeholder.
+ Keep matching front/back module ID and edition. No client or brand assets included. -->
 <svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 210 297" role="img" aria-labelledby="title desc">
-  <title id="title">A4 双面模块母版 · 正面</title>
-  <desc id="desc">虚构占位内容。A4 210×297毫米，RGB，无出血，仅作可编辑版式示意，非直接送印文件。顶部与底部为系列共用区域。</desc>
-  <rect width="210" height="297" fill="#FFFFFF" />
-  <g id="shared-header">
-    <rect width="210" height="24" fill="#24353E" />
-    <text x="14" y="11" class="white heading" font-size="5.5" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#FFFFFF" font-weight="700">BRAND</text>
-    <text x="14" y="17" class="white small" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#FFFFFF" font-size="3.2">机构名称 / 品牌标识区</text>
-    <text x="196" y="11" class="white body" text-anchor="end" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#FFFFFF" font-size="3.8">业务类别 · 模块名称</text>
-    <text x="196" y="17" class="white small" text-anchor="end" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#FFFFFF" font-size="3.2">以名称 + 编号辅助颜色识别</text>
-    <rect y="23" width="210" height="1" class="theme-fill" fill="#147D92" />
-  </g>
-  <g id="front-hero">
-    <rect x="14" y="33" width="44" height="6" rx="1" class="theme-fill" fill="#147D92" />
-    <text x="17" y="37.2" class="white small" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#FFFFFF" font-size="3.2">产品 / 业务 / 方案</text>
-    <text x="14" y="51" class="heading" font-size="9" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#24353E" font-weight="700">模块标题放在这里</text>
-    <text x="14" y="61" class="body muted" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#61737D" font-size="3.8">用一句话说明：为谁，解决什么问题，带来什么价值。</text>
-    <rect x="14" y="69" width="182" height="51" rx="2" fill="#EEF4F5" />
-    <circle cx="155" cy="94" r="17" fill="#DBE9EC" />
-    <rect x="39" y="83" width="72" height="25" rx="2" fill="#FFFFFF" stroke="#B8C9CF" stroke-width="0.5" />
-    <path d="M111 95 H138" fill="none" class="theme-stroke" stroke-width="0.8" stroke="#147D92" />
-    <circle cx="155" cy="94" r="7" fill="none" class="theme-stroke" stroke-width="0.8" stroke="#147D92" />
-    <text x="75" y="94" text-anchor="middle" class="body heading theme-text" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#147D92" font-weight="700" font-size="3.8">主图 / 结构示意区</text>
-    <text x="75" y="101" text-anchor="middle" class="small muted" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#61737D" font-size="3.2">替换为已授权且清晰的素材</text>
-  </g>
-  <g id="front-value">
-    <text x="14" y="135" class="heading theme-text" font-size="5.5" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#147D92" font-weight="700">核心价值</text>
-    <text x="14" y="143" class="body muted" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#61737D" font-size="3.8">用可核实的表达，说明客户为什么需要这一模块。</text>
-    <rect x="14" y="151" width="56" height="39" fill="#F6F8F9" />
-    <rect x="77" y="151" width="56" height="39" fill="#F6F8F9" />
-    <rect x="140" y="151" width="56" height="39" fill="#F6F8F9" />
-    <text x="19" y="161" class="small theme-text" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#147D92" font-size="3.2">01</text>
-    <text x="82" y="161" class="small theme-text" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#147D92" font-size="3.2">02</text>
-    <text x="145" y="161" class="small theme-text" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#147D92" font-size="3.2">03</text>
-    <text x="19" y="171" class="body heading" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#24353E" font-weight="700" font-size="3.8">价值要点 A</text>
-    <text x="82" y="171" class="body heading" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#24353E" font-weight="700" font-size="3.8">价值要点 B</text>
-    <text x="145" y="171" class="body heading" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#24353E" font-weight="700" font-size="3.8">价值要点 C</text>
-    <text x="19" y="180" class="small muted" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#61737D" font-size="3.2">事实、功能或明确边界</text>
-    <text x="82" y="180" class="small muted" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#61737D" font-size="3.2">事实、功能或明确边界</text>
-    <text x="145" y="180" class="small muted" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#61737D" font-size="3.2">事实、功能或明确边界</text>
-  </g>
-  <g id="front-scenarios">
-    <text x="14" y="207" class="heading theme-text" font-size="5.5" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#147D92" font-weight="700">适用场景与对象</text>
-    <path d="M14 213 H196" stroke="#D5E0E4" stroke-width="0.4" />
-    <text x="14" y="224" class="body heading" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#24353E" font-weight="700" font-size="3.8">场景 A</text>
-    <text x="44" y="224" class="body muted" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#61737D" font-size="3.8">客户对象、使用条件与需要解决的问题。</text>
-    <text x="14" y="236" class="body heading" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#24353E" font-weight="700" font-size="3.8">场景 B</text>
-    <text x="44" y="236" class="body muted" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#61737D" font-size="3.8">客户对象、使用条件与需要解决的问题。</text>
-    <rect x="14" y="249" width="182" height="17" rx="1" class="theme-fill" fill="#147D92" />
-    <text x="21" y="260" class="white body heading" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#FFFFFF" font-weight="700" font-size="3.8">下一步：翻到背面，了解内容、流程与合作方式。</text>
-  </g>
-  <g id="shared-footer">
-    <rect y="279" width="210" height="18" fill="#24353E" />
-    <text x="14" y="286" class="white small" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#FFFFFF" font-size="3.2">机构名称 · 联系方式待确认</text>
-    <text x="196" y="286" class="white small" text-anchor="end" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#FFFFFF" font-size="3.2">MOD-001 · v0.1 · F</text>
-    <text x="14" y="292" class="white" font-size="2.8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" fill="#FFFFFF">母版示意 / RGB / 无出血 / 文案与尺寸参数待制作确认</text>
-  </g>
+<title id="title">模块化双面单页母版 · 正面</title>
+<desc id="desc">虚构产品与品牌占位。A4可编辑结构示例，RGB、无出血。二维码为不具有扫码功能的位置示意，需用真实落地页另行生成和验证。</desc>
+<rect width="210" height="297" fill="#FAF9F5"/>
+
+<g id="front-hero"><rect width="210" height="108" fill="#142A40"/>
+<g id="demo-mark"><rect x="12" y="8" width="8" height="8" fill="none" stroke="#FFFFFF" stroke-width=".35"/>
+<text x="16" y="13.3" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="4" font-weight="600" fill="#FFFFFF" text-anchor="middle">D</text>
+</g>
+<text x="24" y="14" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.4" font-weight="600" fill="#FFFFFF">DEMO BRAND</text>
+<g id="qr-placeholder"><rect x="174" y="8" width="24" height="24" fill="#FFFFFF"/><rect x="177" y="11" width="18" height="18" fill="none" stroke="#142A40" stroke-width=".25"/>
+<text x="186" y="18.5" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.8" font-weight="600" fill="#142A40" text-anchor="middle">QR</text>
+<text x="186" y="24" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="2.3" font-weight="400" fill="#606F7D" text-anchor="middle">位置示意</text>
+</g>
+<text x="186" y="36" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="2.4" font-weight="400" fill="#CDD7E5" text-anchor="middle">落地页确认后替换并测试</text>
+<text x="12" y="34" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="8.8" font-weight="600" fill="#FFFFFF">产品或服务名称</text>
+<text x="12" y="54" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="6.4" font-weight="600" fill="#C1D1EB">清楚说明客户价值，</text>
+<text x="12" y="63" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="6.4" font-weight="600" fill="#C1D1EB">让选择更有依据。</text>
+<text x="12" y="79" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.6" font-weight="400" fill="#C4D0DE">将问题、工作方式和预期交付连接，</text>
+<text x="12" y="85" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.6" font-weight="400" fill="#C4D0DE">帮助客户判断这项服务是否适合自己。</text>
+<g id="product-specific-art" fill="none" stroke-linecap="round">
+<path d="M122 62.0 C145 35.0 175 70.0 201 39.0" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 65.7 C145 38.7 175 73.7 201 42.7" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 69.4 C145 42.4 175 77.4 201 46.4" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 73.1 C145 46.1 175 81.1 201 50.1" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 76.8 C145 49.8 175 84.8 201 53.8" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 80.5 C145 53.5 175 88.5 201 57.5" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 84.2 C145 57.2 175 92.2 201 61.2" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 87.9 C145 60.900000000000006 175 95.9 201 64.9" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 91.6 C145 64.6 175 99.6 201 68.6" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 95.30000000000001 C145 68.30000000000001 175 103.30000000000001 201 72.30000000000001" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 99.0 C145 72.0 175 107.0 201 76.0" stroke="#3F6083" stroke-width=".18"/>
+<path d="M122 102.7 C145 75.7 175 110.7 201 79.7" stroke="#3F6083" stroke-width=".18"/>
+<path d="M125 84 C148 53 172 88 198 60" stroke="#8EAAFF" stroke-width=".9"/>
+<circle cx="125" cy="84" r="1.7" fill="#142A40" stroke="#C4D0DE" stroke-width=".25"/>
+<circle cx="160" cy="71" r="1.7" fill="#142A40" stroke="#C4D0DE" stroke-width=".25"/>
+<circle cx="198" cy="60" r="1.7" fill="#142A40" stroke="#C4D0DE" stroke-width=".25"/>
+</g></g>
+<g id="mechanism-graph">
+<text x="12" y="119" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="2.9" font-weight="600" fill="#4267EC">模式机制</text>
+<text x="12" y="128" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="5" font-weight="600" fill="#142A40">把重要组成、关系与输出讲清楚</text>
+<rect x="12" y="136" width="56" height="22" fill="#FFFFFF"/>
+<path d="M12 136 L68 136" fill="none" stroke="#D4DCE3" stroke-width="0.2"/>
+<path d="M12 136 L22 136" fill="none" stroke="#4267EC" stroke-width="0.55"/>
+<text x="15" y="143" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.7" font-weight="600" fill="#142A40">客户目标</text>
+<text x="15" y="151" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3" font-weight="400" fill="#606F7D">希望获得的变化</text>
+<path d="M40 158 L40 164" fill="none" stroke="#4267EC" stroke-width="0.35"/>
+<path d="M39 162.5 L40 164 L41 162.5" fill="none" stroke="#4267EC" stroke-width=".35"/>
+<rect x="77" y="136" width="56" height="22" fill="#FFFFFF"/>
+<path d="M77 136 L133 136" fill="none" stroke="#D4DCE3" stroke-width="0.2"/>
+<path d="M77 136 L87 136" fill="none" stroke="#4267EC" stroke-width="0.55"/>
+<text x="80" y="143" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.7" font-weight="600" fill="#142A40">已有条件</text>
+<text x="80" y="151" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3" font-weight="400" fill="#606F7D">资料、资源与现状</text>
+<path d="M105 158 L105 164" fill="none" stroke="#4267EC" stroke-width="0.35"/>
+<path d="M104 162.5 L105 164 L106 162.5" fill="none" stroke="#4267EC" stroke-width=".35"/>
+<rect x="142" y="136" width="56" height="22" fill="#FFFFFF"/>
+<path d="M142 136 L198 136" fill="none" stroke="#D4DCE3" stroke-width="0.2"/>
+<path d="M142 136 L152 136" fill="none" stroke="#4267EC" stroke-width="0.55"/>
+<text x="145" y="143" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.7" font-weight="600" fill="#142A40">约束与证据</text>
+<text x="145" y="151" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3" font-weight="400" fill="#606F7D">边界、依据与待验证项</text>
+<path d="M170 158 L170 164" fill="none" stroke="#4267EC" stroke-width="0.35"/>
+<path d="M169 162.5 L170 164 L171 162.5" fill="none" stroke="#4267EC" stroke-width=".35"/>
+<path d="M40 164 L170 164" fill="none" stroke="#4267EC" stroke-width="0.3"/>
+<path d="M105 164 L105 169" fill="none" stroke="#4267EC" stroke-width="0.35"/>
+<path d="M104 167.5 L105 169 L106 167.5" fill="none" stroke="#4267EC" stroke-width=".35"/>
+<rect x="47" y="169" width="116" height="14" fill="#142A40"/>
+<text x="105" y="178" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.8" font-weight="600" fill="#FFFFFF" text-anchor="middle">工作机制：分析 · 比较 · 验证</text>
+<path d="M105 183 L105 188" fill="none" stroke="#4267EC" stroke-width="0.35"/>
+<path d="M104 186.5 L105 188 L106 186.5" fill="none" stroke="#4267EC" stroke-width=".35"/>
+<path d="M40 188 L170 188" fill="none" stroke="#4267EC" stroke-width="0.3"/>
+<path d="M40 188 L40 192" fill="none" stroke="#4267EC" stroke-width="0.35"/>
+<path d="M39 190.5 L40 192 L41 190.5" fill="none" stroke="#4267EC" stroke-width=".35"/>
+<rect x="12" y="192" width="56" height="13" fill="#FFFFFF" stroke="#D4DCE3" stroke-width="0.2"/>
+<text x="40" y="200" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.4" font-weight="600" fill="#142A40" text-anchor="middle">阶段成果</text>
+<path d="M105 188 L105 192" fill="none" stroke="#4267EC" stroke-width="0.35"/>
+<path d="M104 190.5 L105 192 L106 190.5" fill="none" stroke="#4267EC" stroke-width=".35"/>
+<rect x="77" y="192" width="56" height="13" fill="#FFFFFF" stroke="#D4DCE3" stroke-width="0.2"/>
+<text x="105" y="200" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.4" font-weight="600" fill="#142A40" text-anchor="middle">使用条件</text>
+<path d="M170 188 L170 192" fill="none" stroke="#4267EC" stroke-width="0.35"/>
+<path d="M169 190.5 L170 192 L171 190.5" fill="none" stroke="#4267EC" stroke-width=".35"/>
+<rect x="142" y="192" width="56" height="13" fill="#FFFFFF" stroke="#D4DCE3" stroke-width="0.2"/>
+<text x="170" y="200" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.4" font-weight="600" fill="#142A40" text-anchor="middle">行动建议</text>
+<text x="12" y="215" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3" font-weight="400" fill="#606F7D">箭头表达实际关系；流程、闭环或网络由具体业务决定。</text>
+</g>
+<g id="customer-value-and-fit">
+<path d="M12 225 L68 225" fill="none" stroke="#D4DCE3" stroke-width="0.2"/>
+<text x="12" y="234" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="4" font-weight="600" fill="#142A40">理解价值</text>
+<text x="12" y="243" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="2.9" font-weight="400" fill="#606F7D">客户为何想获得这项成果</text>
+<path d="M77 225 L133 225" fill="none" stroke="#D4DCE3" stroke-width="0.2"/>
+<text x="77" y="234" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="4" font-weight="600" fill="#142A40">理解机制</text>
+<text x="77" y="243" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="2.9" font-weight="400" fill="#606F7D">用证据与条件解释如何起作用</text>
+<path d="M142 225 L198 225" fill="none" stroke="#D4DCE3" stroke-width="0.2"/>
+<text x="142" y="234" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="4" font-weight="600" fill="#142A40">理解采用</text>
+<text x="142" y="243" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="2.9" font-weight="400" fill="#606F7D">说明适用对象与下一步</text>
+<text x="12" y="260" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3" font-weight="400" fill="#606F7D">适用对象、真实案例与采用条件：根据已核实材料填写。</text>
+<text x="12" y="266" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3" font-weight="400" fill="#606F7D">需要案例时保留实际截图与来源，不用装饰图替代成果。</text>
+</g>
+<g id="compact-footer">
+<path d="M12 281 L198 281" fill="none" stroke="#D4DCE3" stroke-width="0.2"/>
+<g id="demo-mark"><rect x="12" y="284" width="8" height="8" fill="none" stroke="#142A40" stroke-width=".35"/>
+<text x="16" y="289.3" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="4" font-weight="600" fill="#142A40" text-anchor="middle">D</text>
+</g>
+<text x="27" y="286.8" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.3" font-weight="400" fill="#142A40">业务板块的一句话价值</text>
+<text x="27" y="292" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="2.9" font-weight="400" fill="#606F7D">brand.example</text>
+<text x="198" y="286.8" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="3.1" font-weight="600" fill="#142A40" text-anchor="end">MOD-001 / F</text>
+<text x="198" y="292" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" font-size="2.7" font-weight="400" fill="#606F7D" text-anchor="end">v1.0 · YYYY.MM.DD</text>
+</g>
 </svg>
